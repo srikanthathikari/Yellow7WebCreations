@@ -1,5 +1,13 @@
 
 
-#fb{
-    margin-right: 10px;
+body{
+    padding-top: 75px;
 }
+a, .fab{
+    color:white!important;
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+}
+
