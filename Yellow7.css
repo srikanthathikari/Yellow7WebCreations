@@ -1,8 +1,4 @@
 
-
-body{
-    padding-top: 75px;
-}
 a, .fab{
     color:white!important;
 }
@@ -10,4 +6,5 @@ a, .fab{
 .navbar-toggler-icon{
     background-color: white;
 }
+
 
