@@ -2,9 +2,15 @@
 a, .fab{
     color:white!important;
 }
-
 .navbar-toggler-icon{
     background-color: white;
 }
-
+#test{
+   border-bottom: 2px solid black;
+   text-align: center;
+}
+img{
+    height: 31rem!important;
+    width: 25rem!important;
+}
 
