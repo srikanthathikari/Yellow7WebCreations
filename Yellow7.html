@@ -106,7 +106,7 @@
                     <div class="form-group col-md-4">
                         <label for="validationCustom01">First name</label>
                         <input type="text" class="form-control" id="validationCustom01" required>
-                        <div class="invalid-feedback">
+                        <div class="valid-feedback">
                             Looks good!
                         </div>
                     </div>
@@ -136,18 +136,18 @@
                     <div class="form-group col-md-4">
                         <label for="phoneNumber">Phone Number</label>
                         <input type="tel" class="form-control" id="phoneNumber" placeholder="0123456789" maxlength="10"
-                            required  onchange="validatePhoneNumber()">
+                            required>
                     </div>
                 </div>
 
                 <div class="form-row">
-                    <div class="form-group col-md-2">
+                    <div class="form-group col-md-4">
                         <label for="PartyDate">Event Date</label>
-                        <input type="date" id="selectDate" class="form-control" name="birthday">
+                        <input type="date" id="selectDate" class="form-control" name="birthday" required>
                     </div>
-                    <div class="form-group col-md-10">
+                    <div class="form-group col-md-8">
                         <label for="inputAddress2">Event Address</label>
-                        <input type="text" class="form-control" id="EventAdress" placeholder="Event Address" required>
+                        <input type="text" class="form-control" id="EventAdress" placeholder="Event Address">
                     </div>
 
 
@@ -157,7 +157,7 @@
                     <div class="form-group col-md-4">
                         <label for="inputState">City</label>
                         <select id="inputState" class="form-control" required>
-                            <option selected>Select A City</option>
+                            <option selected>Select A City</option required>
                             <option value=”Andhra Pradesh”>Hyderabad</option>
                             <option value=”Tamil Nadu”>Bengaluru</option>
                             <option value=”Telangana”>Chennai</option>
@@ -185,11 +185,6 @@
             </form>
         </div>
     </div>
-
-
-
-
-
 </body>
 
 </html>
