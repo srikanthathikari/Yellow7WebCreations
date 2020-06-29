@@ -26,9 +26,11 @@ function showAnAlert() {
   alert('Awesome! We got all your information. One our team members will reachout to you shortly');
 }
 
-$(document).ready(function () {
-  $('#selectDate').attr('min', todayDate());
-});
+window.onload = (function(){
+  var minValue = document.getElementById('selectDate');
+ return minValue.setAttribute('min',todayDate());
+})
+
 function todayDate() {
   var today = new Date(); // get the current date
   var dd = today.getDate(); //get the day from today.
@@ -39,18 +41,14 @@ function todayDate() {
   if (dd < 10) {
     dd = '0' + dd
   }
-
   //like the day, do the same to month (3->03)
   if (mm < 10) {
     mm = '0' + mm
   }
-
   //finally join yyyy mm and dd with a "-" between then
   return yyyy + '-' + mm + '-' + dd;
 }
-$(document).ready(function () {
-  $('#selectDate').attr('min', todayDate());
-});
+
 
 
 
