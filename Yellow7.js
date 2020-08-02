@@ -1,3 +1,5 @@
+
+
 //   Example starter JavaScript for disabling form submissions if there are invalid fields 
 
 (function () {
@@ -26,9 +28,9 @@ function showAnAlert() {
   alert('Awesome! We got all your information. One our team members will reachout to you shortly');
 }
 
-window.onload = (function(){
+window.onload = (function () {
   var minValue = document.getElementById('selectDate');
- return minValue.setAttribute('min',todayDate());
+   minValue.setAttribute('min', todayDate()); 
 })
 
 function todayDate() {
@@ -48,6 +50,7 @@ function todayDate() {
   //finally join yyyy mm and dd with a "-" between then
   return yyyy + '-' + mm + '-' + dd;
 }
+
 
 
 

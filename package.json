@@ -1,0 +1,26 @@
+{
+  "name": "yellow7",
+  "version": "1.0.0",
+  "description": "A Web Product For Yellow7 IceCreams",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srikanthathikari/Yellow7WebCreations.git"
+  },
+  "author": "Srikanth Athikari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srikanthathikari/Yellow7WebCreations/issues"
+  },
+  "homepage": "https://github.com/srikanthathikari/Yellow7WebCreations#readme"
+}

@@ -115,7 +115,7 @@
 
     <div class="container pt-5">
         <h5 class="pb-2 pt-4" id="bkAEvent">Book An Event</h5>
-        <form class="needs-validation" target="_self"  method="POST" novalidate>
+        <form  action = "http://localhost:8080/serverTest" class="needs-validation" target="_self"  method="POST" novalidate>
             <div class="form-row">
                 <div class="form-group col-md-4">
                     <label for="validationCustom01">First name</label>
@@ -152,7 +152,7 @@
                 </div>
             </div>
 
-            <div class="form-row">
+            <!-- <div class="form-row">
                 <div class="form-group col-md-4">
                     <label for="PartyDate">Event Date</label>
                     <input type="date" id="selectDate" class="form-control" name="EventDate"  min="2020-28-06" required>
@@ -165,7 +165,7 @@
                 </div>
 
 
-            </div>
+            </div> -->
 
             <div class="form-row">
                 <div class="form-group col-md-4">
@@ -194,7 +194,7 @@
                     <div class="invalid-feedback">Please check the checkbox</div>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary" formtarget="_self" formmethod="POST">Confirm Order</button>
+            <button type="submit" class="btn btn-primary">Confirm Order</button>
         </form>
     </div>
     </div>
